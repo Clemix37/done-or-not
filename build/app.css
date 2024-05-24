@@ -1,0 +1,62 @@
+.title {
+    text-align: center;
+}
+
+#list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#list li {
+    justify-content: space-between;
+    display: flex;
+    width: 60%;
+    min-height: 40px;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+    color: rgb(234, 232, 232);
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.input {
+    padding: 5px;
+    border-radius: 16px;
+    margin: 5px;
+    height: 40px;
+    width: 100%;
+    font-size: x-large;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn {
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+    min-width: 50px;
+}
+
+.btn-delete-task {
+    margin: 5px;
+}
+
+#new-task-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
